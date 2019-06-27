@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1140px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+header{
+    background-color: #151D28;
+}
+
+header li{
+    font-size: 14px;
+    color: #fff;
+}
