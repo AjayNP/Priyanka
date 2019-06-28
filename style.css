@@ -7,9 +7,9 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 .container{
-    overflow: hidden;
     margin: 0 auto;
     width: 1140px;
+    padding: 0 15px;
 }
 
 a{
@@ -18,7 +18,6 @@ a{
 
 li{
     list-style: none;
-    display: inline-block;
 }
 
 header{
@@ -26,6 +25,16 @@ header{
 }
 
 header li{
+  
     font-size: 14px;
     color: #fff;
 }
+
+footer{
+    background-color: #161d27;
+    color: #fff;
+    vertical-align: top;
+}
+
+
+
