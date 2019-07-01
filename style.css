@@ -16,7 +16,62 @@ body{
     display: flex;
 }
 
-.flex-container div{
+h2{
+    font-size: 24px;color: #161d27;
+}
+
+.features .flex-container div{
+    flex-basis: 50%;
+}
+
+.features img{
+    width:540px
+}
+
+.container p{
+    font-size: 16px;
+}
+
+.features figcaption p{
+    font-size: 12px;
+}
+
+.features span{
+    color: #999C87;
+}
+
+.pricing .container .flex-container div{
+    box-sizing: border-box;
+    background-color: #161D27;
+    width: 350px;
+    color: #fff;
+    text-align: center;
+    padding: 50px 50px 20px;
+    justify-content: space-between;
+}
+
+.pricing .flex-container div h4{
+    font-size: 15px;
+}    
+
+.pricing .flex-container div p{
+    font-size: 12px;
+}  
+
+.pricing .flex-container div button{
+    background-color: #A19975;
+    color: white;
+    border: 0px;
+    padding:10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.price{
+    font-size: 45px !important;
+}
+
+footer .flex-container div{
     flex-basis: 33%;
 }
 
@@ -37,6 +92,8 @@ header li{
     font-size: 14px;
     color: #fff;
 }
+
+
 
 footer{
     background-color: #161d27;
