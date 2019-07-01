@@ -12,6 +12,14 @@ body{
     padding: 0 15px;
 }
 
+.flex-container{
+    display: flex;
+}
+
+.flex-container div{
+    flex-basis: 33%;
+}
+
 a{
     text-decoration: none;
 }
