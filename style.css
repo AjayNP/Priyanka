@@ -11,6 +11,9 @@ body{
     width: 1140px;
     padding: 0 15px;
 }
+header{
+    font-size: 14px;
+}
 
 .flex-container{
     display: flex;
@@ -19,7 +22,25 @@ body{
 
 .banner-image img{
     width: 450px;
+    box-shadow: 10px 10px #A19975;
 }
+
+.banner-content p{
+    font-size: 16px;
+}
+
+.banner-content div{
+    margin: 20px 0px;
+}
+
+.follow{
+    font-size: 13px;
+}
+
+h1{
+    font-size: 48px;
+}
+
 
 h2{
     font-size: 24px;color: #161d27;
@@ -27,6 +48,7 @@ h2{
 
 .features .flex-container div{
     flex-basis: 50%;
+    margin: 40px 0px;
 }
 
 .features img{
@@ -57,21 +79,15 @@ h3 span{
     color: #fff;
 }
 
-.banner-content{
-    width: 60%;
-}
-
-.banner-image{
-    width: 40%;
-}
 
 .banner button{
     background-color: #A19975;
     color: white;
     border: 0px;
-    padding:10px 20px;
+    padding:20px;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 2%;
 }
 
 .pricing .container .flex-container div{
@@ -82,6 +98,7 @@ h3 span{
     text-align: center;
     padding: 50px 50px 20px;
     border-radius: 1%;
+    margin: 40px 0px;
    
 }
 
@@ -100,14 +117,36 @@ h3 span{
     padding:10px 20px;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 1%;
 }
 
 .price{
     font-size: 45px !important;
 }
 
+.price-m{
+    margin: 10px 0px !important;
+}
+
+.buy{
+    margin: 10px 0px !important;
+}
+
+section{
+    padding: 100px 0px;
+}
+
 .articles{
     background-color: #EFEFEF;
+   
+}
+
+.info{
+    padding: 15px 0px;
+}
+
+.location{
+    padding: 30px 0px;
 }
 
 .inquiry{
@@ -118,10 +157,15 @@ h3 span{
     flex-basis: 350px;
     border-radius: 1% ;
     background-color: #fff; 
+    margin: 40px 0px;
 }
 
 .articles img{
     width: 350px;
+}
+
+.articles figcaption{
+    padding: 20px;
 }
 
 .general{
@@ -139,16 +183,16 @@ h3 span{
     padding: 50px;
 }
 
-footer .flex-container div{
-    
-}
+
 
 a{
     text-decoration: none;
+    color: #fff;
 }
 
 li{
     list-style: none;
+    padding: 5px 30px;
 }
 
 header{
@@ -164,6 +208,7 @@ header li{
 
 
 footer{
+    padding: 80px 0px 0px;
     background-color: #161d27;
     color: #fff;
     vertical-align: top;
@@ -175,6 +220,11 @@ footer{
 
 .footer-s2 div{
     flex-basis: 33.33%;
+    padding: 60px 0px;
+}
+
+ i{
+    margin: 0px 10px;
 }
 
 

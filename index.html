@@ -14,15 +14,15 @@
     <header>
         <div class="container">
             <div class="flex-container">
-                <img src="images/logo-light.svg" alt="logo">
+                <a href="#"><img src="images/logo-light.svg" alt="logo"></a>
                 <nav>
                     <ul class="flex-container">
-                        <li>Home</li>
-                        <li>Portfolio</li>
-                        <li>Testimonials</li>
-                        <li>Pricing</li>
-                        <li>Articles</li>
-                        <li>Hire me  <i class="fa fa-arrow-right"></i></li>
+                        <li><a href="#"> Home</a></li>
+                        <li><a href="#"> Portfolio</a></li>
+                        <li><a href="#"> Testimonials</a></li>
+                        <li><a href="#"> Pricing</a></li>
+                        <li><a href="#"> Articles</a></li>
+                        <li><a href="#"> Hire me  <i class="fa fa-arrow-right"></i></a></li>
                     </ul>
                 </nav>
             </div>    
@@ -37,15 +37,19 @@
                 <div class="flex-container">
                     <div class="banner-content">
                         <h1>I work with exciting brands to build amazing products</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui ea consequuntur, odit veniam mollitia aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum.</p>
-                        <p>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui ea consequuntur, odit veniam mollitia aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum.</p>
+                        </div>
+                        <div class="follow">
                             <strong>Follow me:</strong>
                             <i class="fa fa-instagram"></i>
                             <i class="fa fa-twitter"></i>
                             <i class="fa fa-youtube"></i>
                             <i class="fa fa-dribbble"></i>
-                        </p>
-                        <button><strong> Request demo <i class="fa fa-arrow-right"></i></strong></button>
+                        </div>
+                        <div>
+                            <button><strong> Request demo <i class="fa fa-arrow-right"></i></strong></button>
+                        </div>
                     </div>
                     <div class="banner-image">
                         <img src="images/hero.jpg" alt="hero">
@@ -93,29 +97,41 @@
                     <div>
                         <h4>Basic</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui ea consequuntur, odit veniam mollitia aliquam reiciendis</p>
-                        <p class="price">$99</p>
-                        <p><strong>PER MONTH</strong></p>
-                        <p>SAVE $99/YEAR</p>
-                        <button type="button">Buy now <i class="fa fa-arrow-right"></i> </button>
-                        <p>Start a 7 day trial</p>
+                        <div class="price-m">      
+                            <p class="price">$99</p>
+                            <p><strong>PER MONTH</strong></p>
+                            <p>SAVE $99/YEAR</p>
+                        </div>
+                        <div class="buy">
+                            <button type="button">Buy now <i class="fa fa-arrow-right"></i> </button>
+                            <p>Start a 7 day trial</p>
+                        </div>
                     </div>
                     <div>
-                        <h4>Basic</h4>
+                        <h4>Agency</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui ea consequuntur, odit veniam mollitia aliquam reiciendis</p>
-                        <p class="price">$99</p>
-                        <p><strong>PER MONTH</strong></p>
-                        <p>SAVE $99/YEAR</p>
-                        <button type="button">Buy now <i class="fa fa-arrow-right"></i> </button>
-                        <p>Start a 7 day trial</p>
+                        <div class="price-m">    
+                            <p class="price">$129</p>
+                            <p><strong>PER MONTH</strong></p>
+                            <p>SAVE $129/YEAR</p>
+                        </div>
+                        <div  class="buy">
+                            <button type="button">Buy now <i class="fa fa-arrow-right"></i> </button>
+                            <p>Start a 7 day trial</p>
+                        </div>
                     </div>
                     <div>
-                        <h4>Basic</h4>
+                        <h4>Enterprise</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui ea consequuntur, odit veniam mollitia aliquam reiciendis</p>
-                        <p class="price">$99</p>
-                        <p><strong>PER MONTH</strong></p>
-                        <p>SAVE $99/YEAR</p>
-                        <button type="button">Buy now <i class="fa fa-arrow-right"></i> </button>
-                        <p>Start a 7 day trial</p>
+                        <div class="price-m">    
+                            <p class="price">$229</p>
+                            <p><strong>PER MONTH</strong></p>
+                            <p>SAVE $229/YEAR</p>
+                        </div>
+                        <div class="buy">
+                            <button type="button">Buy now <i class="fa fa-arrow-right"></i> </button>
+                            <p>Start a 7 day trial</p>
+                        </div>    
                     </div>
                 </div>
 
@@ -166,15 +182,23 @@
             <div class="container">
                 <div class="flex-container">
                     <div class="general">
-                        <h2>General inquiries</h2>
-                        <p>Ready to accelerate your project?just let me know</p>
-                        <p><strong>General Information</strong></p>
-                        <div class="contact">
-                            <p><strong>Email:</strong> contact@freelancer.com</p>
-                            <p><strong>Phone:</strong> (55) 9882 2982</p>
+                        <div class="info">
+                            <h2>General inquiries</h2>
+                            <p>Ready to accelerate your project?just let me know</p>
                         </div>
-                        <p><strong>Location</strong></p>
-                        <p><strong>Office:</strong>Av. Paseo de la Reforma 296, Jaurez, 066000 Ciudad de Mexico, CDMX</p>
+                        <div class="info">
+                            <p><strong>General Information</strong></p>
+                            <div class="contact">
+                                <p><strong>Email:</strong> contact@freelancer.com</p>
+                                <p><strong>Phone:</strong> (55) 9882 2982</p>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <p><strong>Location</strong></p>
+                            <div class="contact">
+                                <p><strong>Office:</strong>Av. Paseo de la Reforma 296, Jaurez, 066000 Ciudad de Mexico, CDMX</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="inquiry-form">
                         <h3>I'll get back to you as soon as possible.</h3>
@@ -201,26 +225,26 @@
             <div class="flex-container footer-s1">
                 <div>
                     <ul>
-                        <li><strong>Services</strong></li>
-                        <li>Web design</li>
-                        <li>Web development</li>
-                        <li>Mobile apps </li>
+                        <li><a href="#"><strong>Services</strong></a></li>
+                        <li><a href="#">Web design</a></li>
+                        <li><a href="#">Web development</a></li>
+                        <li><a href="#">Mobile apps </a></li>
                     </ul>
                 </div>
                 <div>
                     <ul>
-                        <li><strong>Information</strong></li>
-                        <li>About me</li>
-                        <li>Portfolio</li>
-                        <li>Previous jobs</li>
+                        <li><a href="#"><strong>Information</strong></a></li>
+                        <li><a href="#">About me</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Previous jobs</a></li>
                     </ul>
                 </div>
                 <div>
                     <ul>
-                        <li><strong>Resources</strong></li>
-                        <li>Free tutorials</li>
-                        <li>PSD templates</li>
-                        <li>Bootstrap templates</li>
+                        <li><a href="#"><strong>Resources</strong></a></li>
+                        <li><a href="#">Free tutorials</a></li>
+                        <li><a href="#">PSD templates</a></li>
+                        <li><a href="#">Bootstrap templates</a></li>
                     </ul>
                 </div>
                 <div>
@@ -238,10 +262,10 @@
                         <p>Made by <strong>Themes Bootstrap</strong></p>
                     </div>
                     <div>
-                        <i class="fa fa-instagram"></i>
-                        <i class="fa fa-twitter"></i>
-                        <i class="fa fa-youtube"></i>
-                        <i class="fa fa-dribbble"></i>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
                     </div>
             </div>
         </div>
