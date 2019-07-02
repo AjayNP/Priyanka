@@ -14,6 +14,11 @@ body{
 
 .flex-container{
     display: flex;
+    justify-content: space-between;
+}
+
+.banner-image img{
+    width: 450px;
 }
 
 h2{
@@ -25,29 +30,59 @@ h2{
 }
 
 .features img{
-    width:540px
+    width:540px;
+    border-radius: 1%;
 }
 
 .container p{
     font-size: 16px;
+   
 }
 
-.features figcaption p{
+figcaption p{
     font-size: 12px;
 }
 
-.features span{
+figcaption img{
+    border-radius: 50%;
+    width: 40px !important;
+}
+
+h3 span{
     color: #999C87;
+}
+
+.banner{
+    background-color: #161D27;
+    color: #fff;
+}
+
+.banner-content{
+    width: 60%;
+}
+
+.banner-image{
+    width: 40%;
+}
+
+.banner button{
+    background-color: #A19975;
+    color: white;
+    border: 0px;
+    padding:10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .pricing .container .flex-container div{
     box-sizing: border-box;
     background-color: #161D27;
-    width: 350px;
+    flex-basis: 350px;
     color: #fff;
     text-align: center;
     padding: 50px 50px 20px;
-    justify-content: space-between;
+    border-radius: 1%;
+   
 }
 
 .pricing .flex-container div h4{
@@ -71,8 +106,41 @@ h2{
     font-size: 45px !important;
 }
 
+.articles{
+    background-color: #EFEFEF;
+}
+
+.inquiry{
+    background-color: #EFEFEF; 
+}
+
+.articles .flex-container div{
+    flex-basis: 350px;
+    border-radius: 1% ;
+    background-color: #fff; 
+}
+
+.articles img{
+    width: 350px;
+}
+
+.general{
+    width: 40%;
+}
+
+.contact p{
+    font-size: 11px;
+}
+
+.inquiry-form{
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 60%;
+    padding: 50px;
+}
+
 footer .flex-container div{
-    flex-basis: 33%;
+    
 }
 
 a{
@@ -99,6 +167,14 @@ footer{
     background-color: #161d27;
     color: #fff;
     vertical-align: top;
+}
+
+.footer-s1 div{
+    flex-basis: 25%;
+}
+
+.footer-s2 div{
+    flex-basis: 33.33%;
 }
 
 

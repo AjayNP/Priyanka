@@ -7,25 +7,25 @@
     <title>Portfolio</title>
     <link href="style.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
     <header>
         <div class="container">
-            <ul>
-                <li></li>
-                <li>Personal Portfolio</li>
-            </ul>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Portfolio</li>
-                    <li>Testimonials</li>
-                    <li>Pricing</li>
-                    <li>Articles</li>
-                    <li>Hire me</li>
-                </ul>
-            </nav>
+            <div class="flex-container">
+                <img src="images/logo-light.svg" alt="logo">
+                <nav>
+                    <ul class="flex-container">
+                        <li>Home</li>
+                        <li>Portfolio</li>
+                        <li>Testimonials</li>
+                        <li>Pricing</li>
+                        <li>Articles</li>
+                        <li>Hire me  <i class="fa fa-arrow-right"></i></li>
+                    </ul>
+                </nav>
+            </div>    
         </div>
 
     </header>
@@ -34,8 +34,23 @@
 
         <section class="banner">
             <div class="container">
-                <h1>I work with exciting brands to build amazing products</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui ea consequuntur, odit veniam mollitia aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum.</p>
+                <div class="flex-container">
+                    <div class="banner-content">
+                        <h1>I work with exciting brands to build amazing products</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui ea consequuntur, odit veniam mollitia aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum.</p>
+                        <p>
+                            <strong>Follow me:</strong>
+                            <i class="fa fa-instagram"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-youtube"></i>
+                            <i class="fa fa-dribbble"></i>
+                        </p>
+                        <button><strong> Request demo <i class="fa fa-arrow-right"></i></strong></button>
+                    </div>
+                    <div class="banner-image">
+                        <img src="images/hero.jpg" alt="hero">
+                    </div>
+                </div>
             </div>
 
         </section>
@@ -81,7 +96,7 @@
                         <p class="price">$99</p>
                         <p><strong>PER MONTH</strong></p>
                         <p>SAVE $99/YEAR</p>
-                        <button type="button">Buy now </button>
+                        <button type="button">Buy now <i class="fa fa-arrow-right"></i> </button>
                         <p>Start a 7 day trial</p>
                     </div>
                     <div>
@@ -90,7 +105,7 @@
                         <p class="price">$99</p>
                         <p><strong>PER MONTH</strong></p>
                         <p>SAVE $99/YEAR</p>
-                        <button type="button">Buy now </button>
+                        <button type="button">Buy now <i class="fa fa-arrow-right"></i> </button>
                         <p>Start a 7 day trial</p>
                     </div>
                     <div>
@@ -99,7 +114,7 @@
                         <p class="price">$99</p>
                         <p><strong>PER MONTH</strong></p>
                         <p>SAVE $99/YEAR</p>
-                        <button type="button">Buy now </button>
+                        <button type="button">Buy now <i class="fa fa-arrow-right"></i> </button>
                         <p>Start a 7 day trial</p>
                     </div>
                 </div>
@@ -111,19 +126,79 @@
             <div class="container">
                 <h2>Recommended articles to inspire you</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui ea consequuntur, odit veniam mollitia aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum.</p>
+                <div class="flex-container">
+                    <div>
+                        <figure>
+                            <img src="images/blog-01.jpg" alt="color palette">
+                            <figcaption>
+                                <h3><span>Case Study</span>- A quick guide to choosing a color palette</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui ea consequuntur, odit veniam mollitia aliquam reiciendis.</p>
+                                <img src="images/person-01.jpg" alt=""> <span></span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="images/blog-02.jpg" alt="UX portfolio">
+                            <figcaption>
+                                <h3><span>Case Study</span>- Choosing the right projects for your UX portfolio</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui ea consequuntur, odit veniam mollitia aliquam reiciendis.</p>
+                                <img src="images/person-02.jpg" alt=""> <span></span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="images/blog-03.jpg" alt="one-page website ">
+                            <figcaption>
+                                <h3><span>Case Study</span>- 7 one-page websites to inspire your own</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui ea consequuntur, odit veniam mollitia aliquam reiciendis.</p>
+                                <img src="images/person-03.jpg" alt=""> <span></span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
             </div>
 
         </section>
 
         <section class="inquiry">
-
+            <div class="container">
+                <div class="flex-container">
+                    <div class="general">
+                        <h2>General inquiries</h2>
+                        <p>Ready to accelerate your project?just let me know</p>
+                        <p><strong>General Information</strong></p>
+                        <div class="contact">
+                            <p><strong>Email:</strong> contact@freelancer.com</p>
+                            <p><strong>Phone:</strong> (55) 9882 2982</p>
+                        </div>
+                        <p><strong>Location</strong></p>
+                        <p><strong>Office:</strong>Av. Paseo de la Reforma 296, Jaurez, 066000 Ciudad de Mexico, CDMX</p>
+                    </div>
+                    <div class="inquiry-form">
+                        <h3>I'll get back to you as soon as possible.</h3>
+                        <p>Complete the following form and i'll call you as soon as possible.</p>
+                        <label>First name<sup>*</sup></label>
+                        <input type="text" placeholder="First name">
+                        <label>Last name<sup>*</sup></label>
+                        <input type="text" placeholder="Last name">
+                        <label>Email</label>
+                        <input type="email" placeholder="Email">
+                        <label>Phone number</label>
+                        <input type="number" placeholder="Phone number">
+                        <label>Message</label>
+                        <input type="textarea">
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>
 
     <footer>
         <div class="container">
-            <div class="flex-container">
+            <div class="flex-container footer-s1">
                 <div>
                     <ul>
                         <li><strong>Services</strong></li>
@@ -155,13 +230,19 @@
                     </ul>
                 </div>
             </div>    
-            <div class="flex-container">
-                <div>
-                    <p>@2019 Personal Portfolio</p>
-                </div>
-                <div>
-                    <p>Made by <strong>Themes Bootstrap</strong></p>
-                </div>
+            <div class="flex-container footer-s2">
+                    <div>
+                        <p>@2019 Personal Portfolio</p>
+                    </div>
+                    <div>
+                        <p>Made by <strong>Themes Bootstrap</strong></p>
+                    </div>
+                    <div>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-youtube"></i>
+                        <i class="fa fa-dribbble"></i>
+                    </div>
             </div>
         </div>
 
