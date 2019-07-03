@@ -22,7 +22,12 @@ header{
 
 .banner-image img{
     width: 450px;
-    box-shadow: 10px 10px #A19975;
+    box-shadow: -10px 10px #A19975;
+}
+
+.input{
+    border: 1px grey;
+    border-radius: 2%;
 }
 
 .banner-content p{
@@ -39,6 +44,16 @@ header{
 
 h1{
     font-size: 48px;
+}
+
+.inquiry-form button{
+    background-color: #161d27;
+    color: white;
+    border: 0px;
+    padding:20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2%;
 }
 
 
