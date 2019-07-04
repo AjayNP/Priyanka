@@ -23,6 +23,7 @@ header{
 .banner-image img{
     width: 450px;
     box-shadow: -10px 10px #A19975;
+    border: "5";
 }
 
 .input{
@@ -30,8 +31,13 @@ header{
     border-radius: 2%;
 }
 
+.banner-content{
+    flex-basis: 40%;
+}
+
 .banner-content p{
     font-size: 16px;
+        
 }
 
 .banner-content div{
@@ -58,7 +64,13 @@ h1{
 
 
 h2{
-    font-size: 24px;color: #161d27;
+    font-size: 24px;
+    color: #161d27;
+    margin: 10px 0px;
+}
+
+.cards p{
+    color: #fff !important;
 }
 
 .features .flex-container div{
@@ -73,6 +85,7 @@ h2{
 
 .container p{
     font-size: 16px;
+    color: #161D27;
    
 }
 
@@ -83,6 +96,11 @@ figcaption p{
 figcaption img{
     border-radius: 50%;
     width: 40px !important;
+    height: 40px;
+}
+
+h3{
+    margin: 10px 0px;
 }
 
 h3 span{
@@ -143,8 +161,16 @@ h3 span{
     margin: 10px 0px !important;
 }
 
+.price-m strong{
+    color: #5e707d;
+}
+
 .buy{
     margin: 10px 0px !important;
+}
+
+.buy p{
+    color: #5e707d !important; 
 }
 
 section{
@@ -200,7 +226,15 @@ section{
 input:focus{
     outline: 0;
 }
+ 
+.img-footer{
+    justify-content: inherit;
+}
 
+label{
+    color: #161D27;
+    font-size: 12px;
+}
 
 a{
     text-decoration: none;
@@ -220,6 +254,10 @@ header li{
   
     font-size: 14px;
     color: #fff;
+}
+
+header img{
+    height: 30px;
 }
 
 
